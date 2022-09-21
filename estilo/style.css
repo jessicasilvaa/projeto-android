@@ -15,7 +15,7 @@
     --cor6: #063d1e;
     --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
     --fonte-destaque: 'Bebas Neue', cursive;
-    --fonte-android: 'Android', cursive;
+    --fonte-android: 'Android';
 }
 
 * {
@@ -92,7 +92,7 @@ main {
 main h1 {
     color: var(--cor5);
     font-family: var(--fonte-android);
-    font-weight: normal;
+    font-weight: bold;
     font-size: 1.8em;
 }
 
@@ -100,7 +100,7 @@ main h2 {
     font-family: var(--fonte-android);
     color: var(--cor4);
     font-size: 1.3em;
-    font-weight: normal;
+    font-weight: bold;
     background-image: linear-gradient(to right, var(--cor1), transparent);
     text-indent: 8px;
 }
@@ -179,7 +179,7 @@ footer {
     background-color: var(--cor6);
     color: white;
     text-align: center;
-    font-size: 0.8px;
+    font-size: 15px;
     padding: 5px;
 }
 footer a {
